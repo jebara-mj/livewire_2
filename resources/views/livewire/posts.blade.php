@@ -60,7 +60,7 @@
 
             <div class="mt-4">
                 <x-jet-label for="title" value="{{ __('Title') }}"></x-jet-label>
-                <x-jet-input typw="text" id="title" wire:model.debounce.500ms="title" class="block mt-1 w-full"></x-jet-input>
+                <x-jet-input type="text" id="title" wire:model.debounce.500ms="title" class="block mt-1 w-full"></x-jet-input>
                 @error('title')<span class="text-red-900 text-sm font-extrabold">{{ $message }}</span>@enderror
             </div>
 
